@@ -1,12 +1,17 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { Greeting } from './components/greeting/greeting';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, Greeting],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('learning-angular');
+  protected greeting = signal('');
+
+  receiveGreeting(message: string) {
+    this.greeting.set(message);
+  }
 }
