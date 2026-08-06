@@ -1,0 +1,19 @@
+.navbar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  background: #0d47a1;
+  color: #fff;
+}
+
+.navbar-header nav a {
+  margin-left: 1rem;
+  color: #cfe8ff;
+  text-decoration: none;
+}
+
+.navbar-header nav a.active,
+.navbar-header nav a:hover {
+  color: #fff;
+}

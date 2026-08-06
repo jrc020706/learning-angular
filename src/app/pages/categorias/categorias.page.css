@@ -1,0 +1,31 @@
+.page-categories {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.page-categories ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+
+.page-categories li {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  background: #fff;
+  border: 1px solid #dbe5f5;
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.05);
+}
+
+.page-categories strong {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #0f172a;
+}
+
+.page-categories p {
+  margin: 0;
+  color: #475569;
+}

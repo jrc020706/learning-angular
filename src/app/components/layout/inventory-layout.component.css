@@ -1,0 +1,43 @@
+:host {
+  display: block;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.layout-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  background: #0d47a1;
+  color: #fff;
+}
+
+.layout-header nav a {
+  margin-left: 1rem;
+  color: #cfe8ff;
+  text-decoration: none;
+}
+
+.layout-header nav a.active,
+.layout-header nav a:hover {
+  color: #fff;
+}
+
+.layout-shell {
+  display: flex;
+  min-height: 100vh;
+  background: #eef2ff;
+}
+
+.layout-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.layout-content {
+  padding: 1.5rem;
+  background: #f4f7fb;
+  min-height: calc(100vh - 132px);
+}

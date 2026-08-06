@@ -1,0 +1,10 @@
+<article class="product-card" *ngIf="producto">
+  <div class="product-card__header">
+    <h3>{{ producto.nombre }}</h3>
+    <span class="product-card__category">{{ producto.categoria }}</span>
+  </div>
+  <div class="product-card__body">
+    <p>Stock: {{ producto.stock }}</p>
+    <p>Precio: {{ producto.precio | currency:'USD':'symbol':'1.0-0' }}</p>
+  </div>
+</article>
