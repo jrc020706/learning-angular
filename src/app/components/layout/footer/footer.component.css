@@ -1,6 +1,9 @@
 .footer-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 1rem 1.5rem;
-  background: #e3eaf5;
-  color: #1f2937;
+  background: #0d47a1;
+  color: #fff;
   text-align: center;
 }
